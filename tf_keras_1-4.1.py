@@ -11,12 +11,3 @@ y_test = to_categorical(test_labels)
 test_loss, test_acc = model.evaluate(x_test, y_test)
 
 print('accuracy of test data : ', test_acc)
-
-model_file = 'MnistModel.h5'
-
-imgs_name = ('MNIST')
-imgs_dir = ('MNIST')
-
-sets = (0, 1, 2, 3)
-show = 10
-labs = (1,)
