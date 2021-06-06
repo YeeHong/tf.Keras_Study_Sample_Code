@@ -91,3 +91,5 @@ for i in range(5):
 				 '\npredi = '+str(predict[i]), fontsize=18)
 	ax.set_xticks([]); ax.set_yticks([])
 plt.show()
+
+model.save('MnistModel.h5')
